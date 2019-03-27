@@ -9,6 +9,8 @@ https://github.com/ttlappalainen/CAN_BUS_Shield until changes has been implement
 to original https://github.com/Seeed-Studio/CAN_BUS_Shield library.
 
 == Changes ==
+27.03.2019 Added check if SREG was defined for better compatebility, and put some values into local variables.
+
 04.10.2018 Get rid of min(...) for better compatibility.
 
 12.09.2017 Improved ISR speed 50% by improving mcp_can.
